@@ -1,0 +1,65 @@
+* {
+	box-sizing: border-box;
+}
+ 
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+	background: #f5f7fb;
+	color: #222;
+}
+ 
+/* ส่วนหลักของเว็บไซต์ */
+.hero {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 40px 20px;
+}
+ 
+/* กล่องเนื้อหา */
+.hero-content {
+	max-width: 800px;
+}
+ 
+/* ชื่อ GARDEN AI */
+.logo {
+	font-size: 64px;
+	font-weight: bold;
+	color: #234a8a;
+	margin-bottom: 10px;
+}
+ 
+/* หัวข้อ */
+.hero h2 {
+	font-size: 30px;
+	margin: 10px 0;
+}
+ 
+/* คำอธิบาย */
+.hero p {
+	font-size: 18px;
+	line-height: 1.8;
+	color: #666;
+	margin-bottom: 30px;
+}
+ 
+/* ปุ่ม */
+.start-button {
+	display: inline-block;
+	padding: 16px 35px;
+	background: #234a8a;
+	color: white;
+	text-decoration: none;
+	border-radius: 12px;
+	font-size: 18px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+/* เอฟเฟกต์เมื่อเอาเมาส์ไปวาง */
+.start-button:hover {
+	background: #163565;
+	transform: translateY(-3px);
+}
